@@ -1,0 +1,15 @@
+<nav class="main-nav overlay clearfix">
+	{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+	<a class="nav-button" href="{{@blog.url}}">Hem</a>
+	<a class="nav-button" href="{{@blog.url}}/tag/varfor/">Varför</a>
+	<a class="nav-button" href="{{@blog.url}}/tag/vad/">Vad</a>
+	<a class="nav-button" href="{{@blog.url}}/tag/hur/">Hur</a>
+	<a class="nav-button" href="{{@blog.url}}/tag/kronikor/">Krönikor</a>
+	<a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Prenumerera</a>
+</nav>
+<div class="vertical">
+	<div class="main-header-content inner">
+		<h1 class="page-title"><b>programmera</b>mera.se</h1>
+		<h2 class="page-description">{{@blog.description}}</h2>
+	</div>
+</div>
